@@ -12,10 +12,11 @@
    
   > NAME                READY   UP-TO-DATE   AVAILABLE   AGE </br>
   > devops-kubernetes   3/3     3            3           12s </br>
-    
+  
   </li>
   
   <li> kubectl get services
+  
   > NAME                           TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE </br>
   > devops-kubernetes-entrypoint   NodePort    10.104.157.107   <none>        3000:30001/TCP   31s </br>
   > kubernetes                     ClusterIP   10.96.0.1        <none>        443/TCP          3m17s </br>
